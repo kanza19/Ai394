@@ -43,7 +43,7 @@ print(X.shape)
 sX = np.empty((0,576), int)
 
 # img = X[6]
-ss =38000 #subset size for dry runs change to 42000 to run on whole data
+ss =42000 #subset size for dry runs change to 42000 to run on whole data
 
 #Perform convolve on all images
 for img in X[0:ss,:]:
