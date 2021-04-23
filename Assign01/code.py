@@ -1,4 +1,4 @@
-multinomialNB from SciKit learn and Laplace Smoothing is implemented in multiNomialNB.
+#multinomialNB from SciKit learn and Laplace Smoothing is implemented in multiNomialNB.
 
 import numpy as np
 import sklearn as sk
