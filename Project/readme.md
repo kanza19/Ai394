@@ -29,7 +29,11 @@ We had 6 techniques so we divided two each techniques to one member and assigned
 # 1:Bushra Liaquat Khan :
 I've applied **Linear Regression** and **K-Nearest Neighbours** on 5x5, 7x7, 9x9 matrices with two filters which are mentioned above.
 I have attached all of the outputs of the code in a MS Word document as "screenshot". I asked my group members to search and commit the description of the techniques they applied and what they learned from the techniques I did all of the documentation and tried my best to explain what we all did in our project.
-# Description of important parts of .py file:
+
+# 2: Riba Zainab:
+I've worked on **NaiveBayes Algorithms** which are **Bernoulli** and **GaussianNB** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
+I uploaded all the test models of my group members on kaggle and due to internet failure I'm having issues on attaching .png files.
+
 # Description of techniques:
 All of following machine learning algorithms are supervised machine learning algorithm and now you would ask “**what exactly is supervised machine learning**?” and to answer that I will give you a real life example,
 Suppose we have child and we are it’s supervisor i.e. parent and we want the child to learn how to identify different animals.We want our child to learn how a cat looks like. What we will do inorder to make the child learn what a cat looks like, we will show the child several pictures of the cat and few others of the different animals so the child can be able to identify the difference between the cat. While showing the child pictures of the cat we will shout “**cat**!” (when actually a picture of a cat appears)and when it’s some another animal we shout “**it’s not a cat!**” so after showing several pictures then we ask the the child  and they will correctly tell and will be able to identify what the picture is. This is **Supervised Learning.**
@@ -43,6 +47,24 @@ Linear Regression is a machine learning algorithm based on **Supervised Learning
 **"Birds of a feather flock together"**
 We can take the example of **Netflix** as if we have watched a movie whose genre was "animated" so from next time the suggestion box will show us the movies or TV series of the same genre.
 
+
+**Naive Bayes** are a group of **supervised** machine learning classification algorithms based on the Bayes theorem. It is a simple classification technique, but has high functionality. Why they are called **naive** becausue two assumptions are made in this algorithm.
+1)First assumption is characterized in that between the mutually independent.
+2)Second assumption is that each feature is equally important.
+So, when we are using this algorithm for text classification,this looks very ungenuous with the assumptions but it can give good results.
+
+# Bernoulli:
+Bernoulli model considers only text words appear regardless of whether the number of occurrences, which brings great convenience in the preparation of the final naive Bayes classifier function, to get a few lines of output.
+
+# GaussianNB:
+**Gaussian Naive Bayes** is a form of Naive Bayes that follows Gaussian normal distribution and supports continuous data.
+It is used with continuous data,an assumption often taken is that the continuous values associated with each class are distributed according to a Gaussian distribution. Sometimes we assume:
+-Y is independent 
+-X is independent 
+- or both.
+Gaussian Naive Bayes supports continuous valued features and models each as conforming to a Gaussian distribution.
+
+
 # SVM:
 
 # MultinomialNB:
@@ -50,9 +72,5 @@ We can take the example of **Netflix** as if we have watched a movie whose genre
 # Random Forest:
 
 # Logistic Regression:
-
-# Bernoulli:
-
-# GaussianNB:
  
 
