@@ -28,11 +28,15 @@ We had 6 techniques so we divided two each techniques to one member and assigned
 
 # 1:Bushra Liaquat Khan :
 I've applied **MultinomialNB** and **K-Nearest Neighbours** on 5x5, 7x7, 9x9 matrices with two filters which are mentioned above.
-I have attached all of the outputs of the code down below. I asked my group members to search and commit the description of the techniques they applied and what they learned from the techniques I did all of the documentation and tried my best to explain what we all did in our project.
+I have attached all of the outputs of the code down below. I guided my team mates about research on the techniques they have used and along the documentation work I've tried the best to make our project self explainatory.
 
 # 2: Riba Zainab:
 I've worked on **NaiveBayes Algorithms** which are **Bernoulli** and **GaussianNB** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
 I uploaded all the test models of my group members on kaggle and due to internet failure I'm having issues on attaching .png files.
+
+# 3: Kanza Ahmad: 
+I've applied **Random Forest** and **Support Vector Classifier SVC** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
+
 
 # Description of techniques:
 All of following machine learning algorithms are supervised machine learning algorithm and now you would ask “**what exactly is supervised machine learning**?” and to answer that I will give you a real life example,
