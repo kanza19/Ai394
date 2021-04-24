@@ -1,5 +1,5 @@
-#AI-106394
-#GROUP MEMBERS
+# AI-106394
+# GROUP MEMBERS
 Student Id | Name
 ------------ | -------------
 63229| **Bushra Liaquat Khan** (Group Leader) 
@@ -59,9 +59,9 @@ Bernoulli model considers only text words appear regardless of whether the numbe
 # GaussianNB:
 **Gaussian Naive Bayes** is a form of Naive Bayes that follows Gaussian normal distribution and supports continuous data.
 It is used with continuous data,an assumption often taken is that the continuous values associated with each class are distributed according to a Gaussian distribution. Sometimes we assume:
--Y is independent 
--X is independent 
-- or both.
+1) Y is independent 
+2) X is independent 
+3) or both.
 Gaussian Naive Bayes supports continuous valued features and models each as conforming to a Gaussian distribution.
 
 
