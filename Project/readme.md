@@ -36,6 +36,7 @@ I uploaded all the test models of my group members on kaggle and due to internet
 
 # 3: Kanza Ahmad: 
 I've applied **Random Forest** and **Support Vector Classifier SVC** on 5x5,7x7 and 9x9 matrices with two filters which are mentioned above.
+Due to internet connectivity of my team members i've run all the code on google colab which took so much time to give the output.
 
 
 # Description of techniques:
@@ -72,12 +73,20 @@ Gaussian Naive Bayes supports continuous valued features and models each as conf
 
 # Random Forest:
 
-# How you achieved each task and 6 techniques:
+# Description of the code:
+After reading data from train.csv we labelled the data and then created a filter of an array of different sizes
+To achieve the accuracy for 42000 data different methods are used.We have split the data in to train and test now the models are performed on training set and then they were tested on testing set to check the validity and accuracy.
+After defining the size and frame the part that is important:
+sXTrain, sXTest, yTrain, yTest = train_test_split(sX,sY,test_size=0.2,random_state=0)
+Here we have defined variables for train and test models And manually have split the data.
+test_size=0.2 is defined in the function for indicating the percentage of data which will be taken for testing. Its around 80 to 20 or 70 to 30 usually.
+Then models are fit on training data.
 
 # Cross validation score of each 6 techniques: 
 
 # **5x5 Filter 1:**
 
+![WhatsApp Image 2021-04-25 at 6 47 57 AM](https://user-images.githubusercontent.com/83041057/115989133-4094a580-a5d6-11eb-85b9-076158044ec6.jpeg)
 
 
 # **5x5 Filter 2:**
@@ -86,6 +95,7 @@ Gaussian Naive Bayes supports continuous valued features and models each as conf
 
 # **7x7 Filter 1:**
 
+![WhatsApp Image 2021-04-25 at 6 48 35 AM](https://user-images.githubusercontent.com/83041057/115989142-4e4a2b00-a5d6-11eb-8bb3-86f10ae357d3.jpeg)
 
 
 # **7x7 Filter 2:**
@@ -94,13 +104,13 @@ Gaussian Naive Bayes supports continuous valued features and models each as conf
 
 # **9x9 Filter 1:**
 
+![WhatsApp Image 2021-04-25 at 8 06 19 AM](https://user-images.githubusercontent.com/83041057/115989144-54d8a280-a5d6-11eb-84fc-8a0ba5acc2ee.jpeg)
 
 
 # **9x9 Filter 2:**
 
 ![WhatsApp Image 2021-04-25 at 1 04 33 AM (1)](https://user-images.githubusercontent.com/74513063/115974753-6be8a780-a578-11eb-859e-689372218f10.jpeg)
-
-# Discription of important parts of your .py file:
-
-# How you tweaked the parameters of the classifiers you used from Scikit learn and their descriptions in your own words. 
+ 
 # Highest kaggle score:
+<img width="711" alt="kagPerff" src="https://user-images.githubusercontent.com/83041057/115989204-bac52a00-a5d6-11eb-8efc-9ce0c277463b.png">
+
