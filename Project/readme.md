@@ -1,4 +1,4 @@
-# **AI-106394**
+# AI-106394
 # GROUP MEMBERS
 Student Id | Name
 ------------ | -------------
@@ -69,9 +69,16 @@ It is used with continuous data,an assumption often taken is that the continuous
 Gaussian Naive Bayes supports continuous valued features and models each as conforming to a Gaussian distribution.
 
 
-# SVC:
+# SVC/SVM:
+SVM is a supervised machine learning classification algorithm.
+It divides the data such that errors are reduced.
+data points are divided correctly through different boundaries.
+It increases the distance from nearest data points.
+SVM is a lot better than logistic regression. It provides very high accuracy compared to LR.
 
 # Random Forest:
+Random Forest is a learning process which is used not only for classifications but also for regression.
+On data samples, decision tress are made by random forest to get the prediction from data and then selects the best solution.
 
 # Description of the code:
 After reading data from train.csv we labelled the data and then created a filter of an array of different sizes
